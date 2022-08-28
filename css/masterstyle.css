@@ -65,6 +65,7 @@ nav > ol > li:last-child{
 body{ 
     display:flex; 
     flex-direction:column; 
+    overflow-x: hidden;
   }  
 footer {
     margin-top:1em; 
