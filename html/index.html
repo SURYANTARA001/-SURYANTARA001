@@ -15,28 +15,20 @@
     <script src="../js/master.js" defer></script>
 <body>
   <header>
-    <!-- navbar  -->
-    <nav >
-        <ol>
-            <li id="c_name">
-                <a href="index.html"><img  src="../source/svg/index.svg" alt="iceme.jpg"></a>
-            </li>
-            <li id="aboutus">
-                <a href="#about_us">ABOUT&nbsp;US</a>
-            </li>
-            <li id="product">
-                <a href="#caro2">PROMO</a>
-            </li>
-            <li>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-              </a>
-            </li>
-  
-            <li id="locations">
-                <a href="#loca_wrap">LOCATIONS</a>
-            </li>
-        </ol>
+    <nav class="navbar">
+      <div class="brand-title"><img src="../source/svg/index.svg" alt=""></div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#carousel-one">Promo</a></li>
+          <li><a href="#about_us">About Us</a></li>
+          <li><a href="#loca_wrap">Location</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
   <main>
@@ -66,7 +58,7 @@
     </div>
     <!-- carousel 1 -->
       <section class="weraper1" aria-label="Newest Photos">
-          <div class="carousel-two" data-carousel>
+          <div id="carousel-one" data-carousel>
             <button class="carousel-button prev" data-carousel-button="prev">&#10094;</button>
             <button class="carousel-button next" data-carousel-button="next">&#10095;</button>
             <ul data-slides id="caro2">

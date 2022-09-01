@@ -2,8 +2,8 @@
 .titile{
     color: white;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    position: relative;
     padding-left: 3.5em;
+    margin-top: 2.7em;
     flex: 1;
 }
 .titile > a{
@@ -28,7 +28,7 @@ main{
     #weraper1{
         position: absolute;
         left: 6px;
-        margin-top: 10em;
+        margin-top: 10.8em;
     }
     .weraper1{
     margin-top: 7em;
