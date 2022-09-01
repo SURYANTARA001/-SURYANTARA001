@@ -4,6 +4,7 @@ body{
 }
 *, *::before, *::after {
     box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
   }
   
 body {
@@ -53,6 +54,10 @@ nav ol li#c_name img{
     top: 2.4em;
     float: right;
     padding-right: 2em;
+}
+#product :hover{
+    font-size: larger;
+    color: red;
 }
 nav > ol > li:last-child{
     position: relative;
