@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="../css/styles-carou.css">
     <title>ICE ME</title>
 </head>
-    <script src="../js/carousel.js" defer></script>
+    <script src="../js/master.js" defer></script>
 <body>
   <header>
     <!-- navbar  -->
-    <nav>
+    <nav >
         <ol>
             <li id="c_name">
                 <a href="index.html"><img  src="../source/svg/index.svg" alt="iceme.jpg"></a>
@@ -27,6 +27,12 @@
             <li id="product">
                 <a href="#caro2">PROMO</a>
             </li>
+            <li>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </li>
+  
             <li id="locations">
                 <a href="#loca_wrap">LOCATIONS</a>
             </li>
@@ -34,29 +40,31 @@
     </nav>
   </header>
   <main>
-    <div class="titile">
-      <h1>ICE &nbsp; ME</h1>
-      <h1>MINIMALIST CAFE</h1>
-      <a href="https://www.google.co.id/maps" target="_blank"><h2>FIND US!</h2></a>
+    <div id="namebio_wrap">
+      <section class="titile">
+        <h1>ICE &nbsp; ME</h1>
+        <h1>MINIMALIST CAFE</h1>
+        <a href="https://www.google.co.id/maps" target="_blank"><h2>FIND US!</h2></a>
+      </section>
+      <!-- profile  -->
+      <section id="weraper1">
+        <div id="wrapper-name">
+          <!-- foto  -->
+          <img  id="foto_asli" src="../source/jpg/IMG_9795.jpg" alt="surya_1">
+          <!-- identitas -->
+          <span id="pro_wrap">
+            <h1>Profile</h1>
+            <ol>
+              <li><b>Nama : </b>GEDE SURYANTARA </li>
+              <li><b>Umur : </b>16</li>
+              <li><b>Asal : </b>BALI</li>
+              <li><b>Status : </b>Pelajar di <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjArY2Ksub5AhUiGrcAHcRdANUQFnoECAMQAQ&url=https%3A%2F%2Fwww.smkn1denpasar.sch.id%2F&usg=AOvVaw0_D0cG-M4yC3GgTtBuJ3N5" target="_blank">SMKN 1 DENPASAR</a></li>
+            </ol>
+          </span>
+        </div>
+      </section>
     </div>
-    <!-- carousel -one  -->
-    <section id="weraper1">
-      <div id="wrapper-name">
-        <!-- foto  -->
-        <img  id="foto_asli" src="../source/jpg/IMG_9795.jpg" alt="surya_1">
-        <!-- identitas -->
-        <span id="pro_wrap">
-          <h1>Profile</h1>
-          <ol>
-            <li><b>Nama : </b>GEDE SURYANTARA </li>
-            <li><b>Umur : </b>16</li>
-            <li><b>Asal : </b>BALI</li>
-            <li><b>Status : </b>Pelajar di <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjArY2Ksub5AhUiGrcAHcRdANUQFnoECAMQAQ&url=https%3A%2F%2Fwww.smkn1denpasar.sch.id%2F&usg=AOvVaw0_D0cG-M4yC3GgTtBuJ3N5" target="_blank">SMKN 1 DENPASAR</a></li>
-          </ol>
-        </span>
-      </div>
-    </section>
-    <!-- carousel 2 -->
+    <!-- carousel 1 -->
       <section class="weraper1" aria-label="Newest Photos">
           <div class="carousel-two" data-carousel>
             <button class="carousel-button prev" data-carousel-button="prev">&#10094;</button>

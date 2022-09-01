@@ -22,8 +22,17 @@
 /* profile */
 main{
     display: flex;
-    display: flex;
     flex-direction: column;
+}
+@media only screen and (max-width: 600px){
+    #weraper1{
+        position: absolute;
+        left: 6px;
+        margin-top: 10em;
+    }
+    .weraper1{
+    margin-top: 7em;
+    }
 }
 #weraper1{
     float: right;
@@ -49,6 +58,7 @@ main{
     position: relative;
 }
 .weraper1{
+    top: 5em;
     position: relative;
     display: block;
 }
@@ -56,12 +66,13 @@ main{
 #about_us {
     margin: -4em 10px 0px 10px;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
 	#about_us {
         margin: -17em 10px 0px 10px;
     }
 }
 #about_us h1 {
+    margin-top: 5em;
     color: white;
     padding: 10px;
     background-color: red;
